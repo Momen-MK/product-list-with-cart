@@ -387,7 +387,8 @@ p.total {
     inset: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 24px;
     z-index: 1000;
     overflow-y: auto; 
 
@@ -602,8 +603,28 @@ p.c-item-price {
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
+    
+    .confirmed-box {
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: none;
+        inset: 0;
+    }
+
+    .start-new {
+        padding: 0 100px;
+    }
+}
 
     .box-empty {
+        width: 300px;
+    }
+
+    .cart-empty {
         width: 300px;
     }
 
