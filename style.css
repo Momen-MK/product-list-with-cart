@@ -615,6 +615,10 @@ p.c-item-price {
     .start-new {
         padding: 0 100px;
     }
+
+    section.cart {
+        padding-top: 70px;
+    }
 }
 
     .box-empty {
